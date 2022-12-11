@@ -412,4 +412,31 @@ color: #fff;
 
     }
 
- 
+    h1 {
+      font-family: Helvetica, Arial, sans-serif;
+      text-align: center;
+    }
+    
+    div#pop-up {
+      background-color: #d81a1a;
+      color: #ffffff;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: fit-content;
+      text-align: center;
+      padding: 12px;
+      position: fixed;
+      z-index: 1;
+      right: 5%;
+      bottom: 30px;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      }
+    
+    span#pessoas,
+    span#product {
+      color: rgb(255, 255, 255);
+    }
